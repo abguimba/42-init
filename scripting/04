@@ -1,0 +1,14 @@
+#!/bin/sh
+#chmod 777 script
+# echo "0 0 * * * /bin/sh ./script" | crontab -
+if ! [ -e tmp.txt ]
+then
+	md5sum /etc/crontab > tmp.txt
+fi
+if md5sum -c --status tmp.txt
+then
+	echo "Aucune modif sur /etc/crontab"
+else
+	echo "/etc/crontab a subis des modif\nsending mail to root"
+	echo "/etc/crontab a subis des modif" | mail -s "script" root
+fi

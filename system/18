@@ -1,0 +1,5 @@
+sudo iptables -A INPUT -s 10.0.0.0/8 -j ACCEPT
+
+#Append this rule to the input chain (-A INPUT) so we look at incoming traffic
+# -s specifie la source
+#accept the input (-j ACCEPT)

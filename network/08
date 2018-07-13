@@ -1,0 +1,11 @@
+Avec 'nslookup slash16.org' on trouve l'adresse:
+13.32.211.1
+On refait un nslookup sur l'adresse  "13.32.211.1" avec un grep sur "nameserver"
+lookup 13.32.211.101 | grep "nameserver" | awk '{print$4}'
+Ce qui nous donne:
+	x2.amazonaws.com.
+	x3.amazonaws.org.
+	x4.amazonaws.org.
+	pdns1.ultradns.net.
+	x1.amazonaws.com.
+L'herbegeur utilise est donc Amazon.com

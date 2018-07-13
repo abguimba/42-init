@@ -1,0 +1,3 @@
+Le fichier /etc/resolv.conf, qui indique quels serveurs de noms utiliser.
+Mais symbolic link (->) vers:
+../var/run/resolv.conf

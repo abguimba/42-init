@@ -1,0 +1,5 @@
+dhcp.42.fr.
+#nslookup 10.51.1.253
+#Dynamic Host Configuration Protocol
+#un protocole réseau dont le rôle est d’assurer la configuration automatique des paramètres IP d’une station ou d'une machine,
+#notamment en lui attribuant automatiquement une adresse IP et un masque de sous-réseau.

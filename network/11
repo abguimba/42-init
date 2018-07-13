@@ -1,0 +1,5 @@
+Le materiel qui fait le lien ente l'ordinateur sur le reseau local et l'exterieur est le nat (Network Address Translation),
+Un firewall dont l'utilitee est de securiser l'intra-net.
+Avec un NAT il est possible de faire correspondre une seule adresse externe publique visible sur Internet à toutes les adresses d'un réseau privé,
+afin de pallier l'épuisement des adresses IPv4.
+nat-1 avec l'IP -> 10.60.1.11
