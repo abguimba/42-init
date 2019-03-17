@@ -1,7 +1,7 @@
 # 42-init
 This first project, init, will give you the opportunity to discover system and network basic commands, many of the services used on a server machine, as well as a few ideas of scripts that can be useful for SysAdmins on a daily basis.
 
-![ ](https://github.com/abguimba/42-init/images/image01.png)
+![ ](images/image01.png)
 
 [Norminette subject](https://github.com/Binary-Hackers/42_Subjects/blob/master/04_Norme/norme_2_0_1.pdf)
 
